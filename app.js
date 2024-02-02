@@ -70,7 +70,6 @@ function movies(movie_arr) {
         let title = data_movie.title
         let vid = await get_video(element)
         let vido  ="https://www.youtube.com/embed/" + vid + "?autoplay=1&mute=1&controls=0"
-        console.log(vido)
         let card_content2 = "card-content"
         if (title.length>20) {
             card_content2 = card_content2 + 1 
